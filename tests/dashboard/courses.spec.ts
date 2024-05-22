@@ -25,7 +25,7 @@ test.describe("SBT Deshboard Courses Validations", () => {
 
   test.describe("is able to buy free course", async () => {
 	// skipping for now
-    test.skip("is able to navigate to Free Courses Page", async () => {
+    test("is able to navigate to Free Courses Page", async () => {
       await page.getByRole("link", { name: /Free Courses/ }).click();
       await page.locator('.card-footer .btn').last().click();
       await page.getByRole("button", { name: /Purchase Course/ }).click();
