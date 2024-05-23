@@ -1,0 +1,10 @@
+[
+  {
+    product: 'SpiraPlan',
+    type: 'Trial',
+    siteUrl: 'https://demo-in.spiraservice.net/jyotirmay-planspira',
+    endDate: '14-Jun-2024',
+    status: 'Active',
+    number: 20
+  }
+]
